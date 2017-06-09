@@ -1,0 +1,29 @@
+.container_colum  {
+                    background-color: powderblue;
+                    padding-top: 50px;
+                    padding-right: 30px;
+                    padding-bottom: 50px;
+                    padding-left: 80px;
+                  }
+.kelvin .col-md-4 {
+                    text-align: right;
+                  }
+.Userinput .col-md-8{
+                    text-align: left;
+                    }
+
+/*.Bottom {
+          padding-top: 780px;
+          padding-right: 0px;
+          padding-bottom: 780px;
+          padding-left: 80px;
+          border-style: solid;
+          border-color: green;
+        }*/
+
+/*#first {
+          margin-left: auto;
+          background-color: lightgreen
+          border-style: solid;
+          border-color: red;*/
+}
