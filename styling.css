@@ -1,29 +1,27 @@
 .container_colum  {
                     background-color: powderblue;
-                    padding-top: 50px;
-                    padding-right: 30px;
-                    padding-bottom: 50px;
-                    padding-left: 80px;
+                    margin-bottom: -5px;
+                    padding:30px 0px;
                   }
-.kelvin .col-md-4 {
-                    text-align: right;
-                  }
-.Userinput .col-md-8{
-                    text-align: left;
-                    }
 
 /*.Bottom {
-          padding-top: 780px;
-          padding-right: 0px;
-          padding-bottom: 780px;
-          padding-left: 80px;
           border-style: solid;
           border-color: green;
         }*/
+#first {background-color: lightgreen;
+        width: 49.8%;
+        float:left;
+        padding-left: 15px;
+        }
 
-/*#first {
-          margin-left: auto;
-          background-color: lightgreen
-          border-style: solid;
-          border-color: red;*/
-}
+#kelvin {
+          margin-right: 50%;
+         }
+#final{
+        background-color: silver;
+        text-align: left;
+        height: 426.5px;
+        width: 49%;
+        float: left;
+
+        }
