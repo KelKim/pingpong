@@ -1,63 +1,67 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--load bootstrap-->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <!--load css-->
+    <link rel="stylesheet" href="css/styling.css" type="text/css">
+    <!--load google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans|Cinzel+Decorative|Fredericka+the+Great|Merienda+One|Shadows+Into+Light" rel="stylesheet">
     <title>Ping-Pong</title>
-    <link rel="stylesheet" type="text/css" href="Assets/styles.css">
-    <link rel="stylesheet" href="styling.css" type="text/css">
-
-    <div class="container_colum">
+  </head>
+  <body >
+    <!--add header -->
+<div class="container_colum" style=" background-color: powderblue;">
     <style media="screen">
-     /*<body>{background-color: powderblue;} */
       h1{color: magenta;text-align: center; font-family:Diplomata; font-size:300%;}
     </style>
- <div class="firstrow">
+   <div class="firstrow">
     <h1>Ping-Pong</h1>
   </div>
 </div>
-<!-- first container ends here -->
-  </head>
 
-  <body>
-    <!-- second container starts here -->
-    <div class="Bottom">
-      <div class="last row">
-      <div class="col-md-4" id="first">
-        <style media="screen">
-          h2{color: red; font-size: 200%; font-weight: bold;}
-          h3{color: blue; font-size: 150%; font-weight: normal;}
-          p{color: green; font-size: 150%; font-weight: bold;}
-          h4{color: blue; font-size: 150%; font-weight: normal;}
-          h5{color: black; font-size: 100%; font-weight: bold;}
-        </style>
-        <h2>About Ping Pong;</h2>
-          <h3>Created by:</h3>
-            <p>Kelvin kimathi</p>
-        <h4>GitHub User Url;</h4>
-          <h5>https://github.com/KelKim</h5>
-            <h3>Third Independent Project</h3>
-            <h3>javascript</h3>
+      <!--Ended header-->
+    <div class="container">
+      <div class="row">
+        <!--Side bar -->
+        <div class="col-md-6 col-sm-6 col-xm-6" style=" background-color: powderblue;">
+          <h1 id="about-h1" >About Ping-Pong:</h1>
+          <h3 id="part1">Created By: </h3>
+          <p id="paragraphs">Kelvin Kimathi<p>
+              <h2 id="part2">GitHub user url:</h2>
+            <p id="paragraphs"> https://github.com/KelKim </p>
+            <h3 id="part3">Third Independent project :</h3>
+            <p id="paragraphs">JavaScript<p>
 
-            <form id ="kelvin">
+          </div>
+              <!--End side ->
+              <// search bar column-->
+              <div class="col-md-6" style="background-color: grey;">
+                <!-- add a list-->
+                <form id="pingPong">
+                  <h1  id="starter">Let's play!</h1>
+                  <h2 id="starter">Rules!</h2>
+                  <p id="paragraphs">PingPong will count your number with the following exceptions</p>
+                  <ol id="paragraphs">
+                    <li>Numbers divisible by 3 becomes "ping"</li>
+                    <li>Numbers divisible by 5 becomes "pong"</li>
+                    <li>Numbers divisible by 15 becomes "pingpong"</li>
+                  </ol>
+
+                  <!--form starts here-->
                   <div class="form-group">
-              <label for="pingpong"></label>
-              <input id="number" class="form-control" type="text">
-              <button type="submit" class="btn">Ping pong!</button>
+                    <label for="number" id="starter">Enter your number please:</label>
+                    <input id="number" class="formcontrol" required=" " type="text "></input>
+                    <button class="btn">Ping-Pong!</button>
+                  </div>
+                  <div id="userOutput"></div>
+                </form>
               </div>
-              <div id="Userinput"></div>
-            </form>
+            </div>
           </div>
 
-
-        <div class="col-md-8" id="final">
-
-        </div>
-        </div>
-        <!-- end of row -->
-      </div>
-      <script src="js/jquery.js"></script>
-      <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-      </div>
-    <!-- second container ends here -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>

@@ -1,0 +1,39 @@
+.container_colum{
+									font-family: fantasy;
+									font-size: 100px;
+									padding-left: 200px;
+									text-align: center;
+									margin-top: 0px 0px 0px 0px;
+					        padding-bottom: 20px;
+									}
+
+#paragraphs{
+	font-family: 'Merienda One', cursive;
+
+}
+
+#about-h1{
+	color: grey;
+	font-family: 'Bubblegum Sans', cursive;
+}
+
+#part1{
+	color: grey;
+	font-family: 'Bubblegum Sans', cursive;
+}
+#part2{
+	color: grey;
+	font-family: 'Bubblegum Sans', cursive;
+}
+
+#display{
+	padding-right: 500px;
+}
+#starter{
+	color: grey;
+	font-family: 'Bubblegum Sans', cursive;
+}
+#part3{
+	color: grey;
+	font-family: 'Bubblegum Sans', cursive;
+}
